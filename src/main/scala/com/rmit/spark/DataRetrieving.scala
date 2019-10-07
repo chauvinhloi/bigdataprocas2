@@ -65,6 +65,6 @@ object DataRetrieving {
     val numberOfAUDocs = dotAUPages.count()
 
     // Print out number of .au documents
-    println(s"There are $numberOfAUDocs documents in this dataset")
+    println(s"There are $numberOfAUDocs .au documents in this dataset")
   }
 }
