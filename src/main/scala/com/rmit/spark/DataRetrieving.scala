@@ -52,9 +52,6 @@ object DataRetrieving {
     // Print out number of documents
     println(s"There are $numberOfDocs documents in this dataset")
 
-    // Define regex pattern for extracting the URL
-    val uriPattern = "WARC-Target-URI: http(|s)://([a-z0-9.]*)/".r
-
     // Create new RDD as ( Domain, Content )
     val docsWithDomain = docs.map(getDomain)
 
