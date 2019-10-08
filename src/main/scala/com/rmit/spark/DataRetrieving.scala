@@ -25,9 +25,6 @@ object DataRetrieving {
     // Set the log level to only print errors
     Logger.getLogger("org").setLevel(Level.ERROR)
 
-    //inputPath = "s3://commoncrawl/crawl-data/CC-MAIN-2019-39/segments/1568514570740.10/wet/CC-MAIN-20190915052433-20190915074433-00000.warc.wet.gz"
-    //inputPath = "./dataset/CC-MAIN-20190915052433-20190915074433-00000.warc.wet.gz"
-
     // Config to be used on EMR
     /*
     val conf = new SparkConf()
@@ -44,7 +41,7 @@ object DataRetrieving {
     println(s"\nLoading data from $inputPath...")
 
     // Reading as a single file and reserve the order of content by not splitting lines and sends across cluster
-    val docs = sc.wholeTextFiles(inputPath).map(record => record._2).flatMap(chunks => chunks.split("WARC/1.0"))
+    val docs = sc.wholeTextFiles(inputPath).map({ case(_, content) => content }).flatMap(chunks => chunks.split("WARC/1.0"))
 
     // Number of records in the dataset
     val numberOfDocs = docs.count()
