@@ -1,0 +1,20 @@
+EMR: 5.15.0
+Spark: 2.3.0
+Scala: 2.11.8
+Instance Type: m5.xlarge (4 vCore, 16 GiB memory)
+Executor Memory: 8GiB
+Master Node: 1
+Core Node: 2
+Task Node: 2
+===========================
+ExpNo	Segments	Time
+1		1			44s
+2		2			49s
+3		3			66s
+4		4			96s
+5		5			102s
+6		6			132s
+7		7			138s
+8		8			144s
+9		9			150s
+10		10			168s

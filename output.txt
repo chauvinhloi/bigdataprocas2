@@ -1,0 +1,204 @@
+=================================================
+EXP 1
+=================================================
+Loading data from s3://s3699871/data/... DONE
+There are 45313 documents in this dataset
+There are 475 .au documents in this dataset
+Loading cities list from ./aucities.csv... DONE
+Preparing graph data... DONE
+Writing edge data to current working directory... DONE
+Writing graph data to current working directory... DONE
+
+Finding degree of separation from KWINANA to RICHMOND
+Running BFS Iteration 0
+93 values processed
+--
+Running BFS Iteration 1
+101 values processed
+Hit the target city! From 1 different direction(s).
+RICHMOND is 1 node(s) away from KWINANA.
+------------------------------------------------
+FINISH!
+
+=================================================
+EXP 2
+=================================================
+Loading data from s3://s3699871/data/... DONE
+There are 90294 documents in this dataset
+There are 1036 .au documents in this dataset
+Loading cities list from ./aucities.csv... DONE
+Preparing graph data... DONE
+Writing edge data to current working directory... DONE
+Writing graph data to current working directory... DONE
+
+Finding degree of separation from KWINANA to RICHMOND
+Running BFS Iteration 0
+108 values processed
+--
+Running BFS Iteration 1
+121 values processed
+Hit the target city! From 1 different direction(s).
+RICHMOND is 1 node(s) away from KWINANA.
+------------------------------------------------
+FINISH!
+
+=================================================
+EXP 3
+=================================================
+Loading data from s3://s3699871/data/... DONE
+There are 135351 documents in this dataset
+There are 1570 .au documents in this dataset
+Loading cities list from ./aucities.csv... DONE
+Preparing graph data... DONE
+Writing edge data to current working directory... DONE
+Writing graph data to current working directory... DONE
+
+Finding degree of separation from KWINANA to RICHMOND
+Running BFS Iteration 0
+123 values processed
+--
+Running BFS Iteration 1
+136 values processed
+Hit the target city! From 1 different direction(s).
+RICHMOND is 1 node(s) away from KWINANA.
+------------------------------------------------
+FINISH!
+
+=================================================
+EXP 4
+=================================================
+Loading data from s3://s3699871/data/... DONE
+There are 180739 documents in this dataset
+There are 2095 .au documents in this dataset
+Loading cities list from ./aucities.csv... DONE
+Preparing graph data... DONE
+Writing edge data to current working directory... DONE
+Writing graph data to current working directory... DONE
+
+Finding degree of separation from KWINANA to RICHMOND
+Running BFS Iteration 0
+127 values processed
+--
+Running BFS Iteration 1
+173 values processed
+Hit the target city! From 2 different direction(s).
+RICHMOND is 1 node(s) away from KWINANA.
+------------------------------------------------
+FINISH!
+
+=================================================
+EXP 5
+=================================================
+Loading data from s3://s3699871/data/... DONE
+There are 226158 documents in this dataset
+There are 2671 .au documents in this dataset
+Loading cities list from ./aucities.csv... DONE
+Preparing graph data... DONE
+Writing edge data to current working directory... DONE
+Writing graph data to current working directory... DONE
+
+Finding degree of separation from KWINANA to RICHMOND
+Running BFS Iteration 0
+137 values processed
+--
+Running BFS Iteration 1
+188 values processed
+Hit the target city! From 2 different direction(s).
+RICHMOND is 1 node(s) away from KWINANA.
+------------------------------------------------
+FINISH!
+
+=================================================
+EXP 6
+=================================================
+Loading data from s3://s3699871/data/... DONE
+There are 271106 documents in this dataset
+There are 3237 .au documents in this dataset
+Loading cities list from ./aucities.csv... DONE
+Preparing graph data... DONE
+Writing edge data to current working directory... DONE
+Writing graph data to current working directory... DONE
+
+Finding degree of separation from KWINANA to RICHMOND
+Running BFS Iteration 0
+210 values processed
+Hit the target city! From 1 different direction(s).
+RICHMOND is 0 node(s) away from KWINANA.
+------------------------------------------------
+FINISH!
+
+=================================================
+EXP 7
+=================================================
+Loading data from s3://s3699871/data/... DONE
+There are 316027 documents in this dataset
+There are 3717 .au documents in this dataset
+Loading cities list from ./aucities.csv... DONE
+Preparing graph data... DONE
+Writing edge data to current working directory... DONE
+Writing graph data to current working directory... DONE
+
+Finding degree of separation from KWINANA to RICHMOND
+Running BFS Iteration 0
+212 values processed
+Hit the target city! From 1 different direction(s).
+RICHMOND is 0 node(s) away from KWINANA.
+------------------------------------------------
+FINISH!
+
+=================================================
+EXP 8
+=================================================
+Loading data from s3://s3699871/data/... DONE
+There are 361139 documents in this dataset
+There are 4245 .au documents in this dataset
+Loading cities list from ./aucities.csv... DONE
+Preparing graph data... DONE
+Writing edge data to current working directory... DONE
+Writing graph data to current working directory... DONE
+
+Finding degree of separation from KWINANA to RICHMOND
+Running BFS Iteration 0
+212 values processed
+Hit the target city! From 1 different direction(s).
+RICHMOND is 0 node(s) away from KWINANA.
+------------------------------------------------
+FINISH!
+
+=================================================
+EXP 9
+=================================================
+Loading data from s3://s3699871/data/... DONE
+There are 406147 documents in this dataset
+There are 4810 .au documents in this dataset
+Loading cities list from ./aucities.csv... DONE
+Preparing graph data... DONE
+Writing edge data to current working directory... DONE
+Writing graph data to current working directory... DONE
+
+Finding degree of separation from KWINANA to RICHMOND
+Running BFS Iteration 0
+214 values processed
+Hit the target city! From 1 different direction(s).
+RICHMOND is 0 node(s) away from KWINANA.
+------------------------------------------------
+FINISH!
+
+=================================================
+EXP 10
+=================================================
+Loading data from s3://s3699871/data/... DONE
+There are 451663 documents in this dataset
+There are 5349 .au documents in this dataset
+Loading cities list from ./aucities.csv... DONE
+Preparing graph data... DONE
+Writing edge data to current working directory... DONE
+Writing graph data to current working directory... DONE
+
+Finding degree of separation from KWINANA to RICHMOND
+Running BFS Iteration 0
+217 values processed
+Hit the target city! From 1 different direction(s).
+RICHMOND is 0 node(s) away from KWINANA.
+------------------------------------------------
+FINISH!
